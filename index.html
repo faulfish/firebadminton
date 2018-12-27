@@ -98,33 +98,9 @@
             border-color: transparent transparent transparent #F45B69;
         }
 
-    </style>>
+    </style>
     <script type="text/javascript">
-    function isElementInViewport(el) {
-        var rect = el.getBoundingClientRect();
-        return (
-            rect.top >= 0 &&
-            rect.left >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-        );
-    }
-    var items = document.querySelectorAll(".timeline li");
-
-    // code for the isElementInViewport function
-
-    function callbackFunc() {
-        for (var i = 0; i < items.length; i++) {
-            if (isElementInViewport(items[i])) {
-                items[i].classList.add("in-view");
-            }
-        }
-    }
-
-    window.addEventListener("load", callbackFunc);
-    window.addEventListener("scroll", callbackFunc);
-    </script>>
-    <title>你好，GitHub</title>
+    </script>
 </head>
 
 <body>
@@ -137,39 +113,48 @@
         <ul>
             <li>
                 <div>
+                    <time>2014</time>
+                    隊長: Wallance
+                    成員: 年代久遠不可考
+                </div>
+            </li>
+            <li>
+                <div>
                     <time>2015</time>
-                    隊長: 聖峰
-                    成員: Wallance Davis Nelson william 輝哥 孫老師 郝市長 發哥 鵬山 Cheryl 秀娟 阿嘉 Kent
+                    隊長: 聖峰 (14)
+                    成員: Wallance    聖峰  Davis Nelson william 輝哥 孫老師 郝市長 發哥 鵬山 Cheryl 秀娟 阿嘉 Kent
                 </div>
             </li>
             <li>
                 <div>
-                    <time>1944</time>
-                    Some content here
+                    <time>2016</time>
+                    隊長: Davis (23)
+                    成員: Wallance    聖峰  Davis Nelson william 輝哥 孫老師 郝市長 發哥 鵬山 Cheryl 秀娟  阿嘉 Kent
+                    家豪  麗萍  大祥  建宏  麗玉  許博士 陳凡  Amanda  小宇
                 </div>
             </li>
             <li>
                 <div>
-                    <time>1944</time>
-                    Some content here
+                    <time>2017</time>
+                    隊長: Nelson (28)
+                    成員: Wallance    聖峰  Davis   Nelson    william 輝哥  郝市長 發哥  鵬山  Cheryl  秀娟  Kent
+                    家豪  麗萍  大祥  建宏  麗玉  許博士 陳凡  Amanda  小宇
+                    鮪魚  小許  Kitty   小黃  小狼
                 </div>
             </li>
             <li>
                 <div>
-                    <time>1944</time>
-                    Some content here
+                    <time>2018</time>
+                    隊長: Nelson (30)
+                    成員: Wallance  聖峰  Davis   Nelson    william 輝哥  郝市長 發哥  鵬山 Cheryl  秀娟  Kent    家豪  麗萍  大祥  建宏  麗玉  許博士 陳凡  Amanda  小宇
+                    鮪魚  小許  Kitty   小黃  小狼
+                    Mark    Tony    宏宇  魏廷安 陳丁
                 </div>
             </li>
             <li>
                 <div>
-                    <time>1944</time>
-                    Some content here
-                </div>
-            </li>
-            <li>
-                <div>
-                    <time>1944</time>
-                    Some content here
+                    <time>2019</time>
+                    ...
                 </div>
             </li>
             <!-- more list items here -->
